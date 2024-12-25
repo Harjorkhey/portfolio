@@ -1,0 +1,48 @@
+primary color {
+    white
+    light gray  #D3D3D3
+}
+
+accent color{
+    electric blue #007BFF, emerald green #50C878
+}
+
+primary font{
+    helvetical, arial
+}
+
+accent font{
+    futura
+    bebas neue
+    montserrat
+}
+
+Background: White or light gray.
+Text: Dark gray or charcoal for body text, with bright red or electric blue for headings or call-to-action buttons.
+Highlight Sections: Use emerald green or another bold color to draw attention to important parts like your portfolio categories or featured projects.
+
+
+These colors will provide a nice contrast: 
+the light gray as a soft neutral background, 
+electric blue for vibrant accents, and emerald green for added pops of creativity. 
+You can use these to create a clean yet bold and engaging portfolio.
+
+font awesome{
+    <script src="https://kit.fontawesome.com/c6e7443e57.js" crossorigin="anonymous"></script>
+}
+
+google font{
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+}
